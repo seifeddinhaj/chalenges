@@ -1,24 +1,20 @@
-# README
+# Coding Challenge
+I mainly worked on "The name guesser" and "The calculator", so do not hesitate to contact me if you have any questions.
+- for the first task (name guesser) i used scrapping methode to parse a html file and have the results.(names_controller.rb)
+- For the Calculator i used the eval() function to do the job(calculator_controller.rb)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Requirements:
+ - `Ruby version >= 2.7.2`
 
-Things you may want to cover:
+### Install:
+ - `bundle install`
 
-* Ruby version
+### Run:
+ - `rails s`
+ For Task "The Name Guesser"
+ Feel free to change the name param
+ - `curl -X GET localhost:3000/country_guess?name=Müller`
+ For Task "The Calculator"
+ Feel free to change the name param
+ - `curl -X GET localhost:3000/calculator?expression=44+4`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
