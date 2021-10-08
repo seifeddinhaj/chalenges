@@ -11,10 +11,11 @@ I mainly worked on "The name guesser" and "The calculator", so do not hesitate t
 
 ### Run:
  - `rails s`
- - For Task "The Name Guesser"
- - Feel free to change the name param
  - `curl -X GET localhost:3000/country_guess?name=Müller`
- - For Task "The Calculator"
- - Feel free to change the name param
+   - For Task "The Name Guesser"
+   - Feel free to change the name param
  - `curl -X GET localhost:3000/calculator?expression=44+4`
+   - For Task "The Calculator"
+   - Feel free to change the name param
+ 
 
