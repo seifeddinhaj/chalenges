@@ -16,6 +16,6 @@ I mainly worked on "The name guesser" and "The calculator", so do not hesitate t
    - Feel free to change the name param
  - `curl -X GET localhost:3000/calculator?expression=44+4`
    - For Task "The Calculator"
-   - Feel free to change the name param
+   - Feel free to change the expression param
  
 
